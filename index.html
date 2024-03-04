@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- WorkAround Explorer
+WorkAround is a research organization that provides data on salary trends in the tech industry. Open up salaryData.js to
+see the data they have collected. 
+
+WorkAround now wants to release a new web application called WorkAround Explorer to make their data more easily
+viewable. This web app should allow users to choose specific roles and companies in the tech industry to see the
+following information:
+
+The salary for the chosen role at the chosen company.
+The industry average for the chosen role.
+The average salary at the chosen company across all roles.
+The industry average salary across all roles and all companies. -->
+
+<head>
+    <title>JS Modules | WorkAround Explorer</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Open Graph - Social Media -->
+    <meta property="og:title" content="JS Modules | WorkAround Explorer" />
+    <meta property="og:description"
+        content="Allow users to choose specific roles and companies in the tech industry to see informations" />
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- CSS and JS -->
+    <script type="module" src="main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="popup">
+            <nav class="row">
+                <a id="brand" href="https://github.com/olgavegh" target="_blank" rel="noopener noreferrer">@olgavegh</a>
+                <small class="group-title">Practice JS II. - Modules</small>
+            </nav>
+            <h1>WorkAround Explorer</h1>
+            <div class="popup-content">
+
+                <!-- The roles and companies <section>s are dynamically created in main.js with renderInputButtons() -->
+                <section id="resultsContainer">
+                    <h3>Details:</h3>
+                    <p id="salarySelected"> ... </p>
+                    <p id="salaryAverageByRole"> ... </p>
+                    <p id="salaryAverageByCompany"> ... </p>
+                    <p id="salaryAverageIndustry"> ... </p>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
