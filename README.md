@@ -1,4 +1,4 @@
-# WorkAround Explorer
+# WorkAround Explorer (fictional project)
 
 WorkAround Explorer is a dynamic web application developed by Olga Végh for WorkAround, a renowned research organization specializing in providing comprehensive data on salary trends within the tech industry. This project aims to offer users an intuitive platform to explore and analyze salary information for various roles and companies in the tech sector.
 
