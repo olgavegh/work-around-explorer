@@ -1,3 +1,6 @@
+//use import statement outside module in the browser
+import _ from 'https://cdn.jsdelivr.net/npm/@esm-bundle/lodash@4.17.21/+esm';
+
 import { getRoles, getCompanies } from "../modules/salaryData.js";
 
 import {
